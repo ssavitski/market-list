@@ -1,0 +1,28 @@
+.market-list {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.market-list th,
+.market-list td {
+  padding: 5px;
+}
+
+.market-list th {
+  text-align: left;
+  background-color: grey;
+  color: #fff;
+}
+
+.market-list td {
+  border-bottom: 1px solid #ccc;
+}
+
+.market-list td:first-child {
+  width: 25px;
+}
+
+.market-list tr:nth-child(even) td {
+  background-color: #eee;
+}
