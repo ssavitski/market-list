@@ -51,8 +51,8 @@ function App() {
         <input
           type="checkbox"
           name="view"
-          defaultValue={isAggregate}
-          onClick={() => setIsAggregate(!isAggregate)}
+          defaultChecked={isAggregate}
+          onChange={() => setIsAggregate(!isAggregate)}
           id="view"
         />
         <label htmlFor="view">Aggregate positions</label>
